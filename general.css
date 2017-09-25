@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* Bootcamp day 1 MUISSA AKILI GEDEON YUMMY RECIPES*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#fff;
+	}
+.main_title{
+	width:100%;
+	text-align:center;
+	padding-top:40px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#09C
+		}
+.form_holder{
+	position:absolute;
+	float:none;
+	left:0px;
+	right:0px;
+	top:opx;
+	background:white;
+	color:#000;
+	margin:auto;
+	width:300px;
+	border-radius:8px;
+	margin-top:70px;
+	padding:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.37);}	
+input {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    border: none;
+    display: block;
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 24px;
+    min-height: 24px;
+    line-height: 24px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    resize: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    z-index: 0;
+    overflow-y: visible;
+    overflow-x: hidden;
+	border-bottom:1px solid #09C;
+	margin-left:50px
+}
+label{
+	margin-left:20px;
+	float:left;}	
+.submitbtn{
+	float:left;
+	margin-left:110px;
+	width:80px;
+	margin-bottom:40px;}
+.top_bar{
+	position:fixed;
+	width:100%;
+	height:30px;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.37);
+	}	
+#recipelist { width:100%; font-family:Georgia, Times, serif; font-size:15px; }
+#recipelist ul { list-style: none; }
+#recipelist ul li { }
+#recipelist ul li a { display:block; text-decoration:none; color:#000000; background-color:#FFFFFF; line-height:30px; overflow:hidden;
+  border-bottom-style:solid; border-bottom-width:1px; border-bottom-color:#CCCCCC; padding-left:10px; cursor:pointer; }
+#recipelist ul li a:hover { color:#FFF; background-color:#06F; }
+#recipelist ul li a strong { margin-right:10px; }
+.actions{
+	position:absolute;
+	float:right;
+	right:0px;
+	background:#06F;
+	width:100px;
+	line-height:30px;}
+.action{
+	position:relative;
+	float:left;
+	width:40%;}	
