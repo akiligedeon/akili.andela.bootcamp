@@ -1,5 +1,5 @@
-# akili.andela.bootcamp
-
+# akili.andela.bootcamp4 challenge 1
+# HTML/CSS Design
 Users create accounts
 Users can log in
 Users create, view, update and delete recipe categories
